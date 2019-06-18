@@ -1,16 +1,9 @@
 package Max;
 
 public class Cars {
-    public static String brend;
-    public static String color;
-    public static double price;
-
-    public static void main(String[] args) {
-        Cars porche = new Cars("Porche", "Red", 200000);
-        Cars ferrari = new Cars("Ferrari", "Yellow", 300000);
-        Cars lamborgini = new Cars("Lambo", "Blue", 400000);
-
-    }
+    private String brend;
+    private String color;
+    private double price;
 
     public Cars(){
 

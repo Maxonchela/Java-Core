@@ -3,8 +3,8 @@ package Max;
 public class Wrapper {
     public static void main(String[] args) {
         System.out.print("Перевожу обычное число: ");
-        String number = "5678";
-        Integer a = Integer.parseInt(number);
+        String number = "89112872553";
+        Long a = Long.parseLong(number);
         System.out.println(a);
 
         System.out.println(" ");
