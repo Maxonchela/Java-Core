@@ -1,8 +1,7 @@
-package Max;
+package figures;
 import java.util.Scanner;
 
-public class square {
-
+public class Triangle {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         //a,b,c - стороны треугольника
