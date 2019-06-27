@@ -1,4 +1,4 @@
-package PersonTest;
+package personTest;
 
 public class Swimmer implements Walkable{
 

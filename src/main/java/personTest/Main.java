@@ -1,6 +1,4 @@
-package PersonTest;
-
-import java.lang.reflect.Array;
+package personTest;
 import java.util.Arrays;
 
 public class Main {
@@ -12,16 +10,9 @@ public class Main {
         Person person5 = new Person("Cella", "Daun", 28);
 
         Person[] persons = new Person[]{person1, person2, person3, person4, person5};
-        printPersons(persons);
+        Person.printPersons(persons);
         System.out.println("Теперь отсортированный");
         Arrays.sort(persons);
-        printPersons(persons);
-    }
-
-    public static void printPersons(Person[] persons){
-        System.out.println("Выводим Людей");
-        for (int i = 0; i < persons.length; i++) {
-            System.out.println(persons[i].name + " " + persons[i].surname + " " +persons[i].age);
-        }
+        Person.printPersons(persons);
     }
 }

@@ -1,4 +1,4 @@
-package PersonTest;
+package personTest;
 
 public interface Walkable {
     double MAX_WALK_DISTANCE = 42.195;
