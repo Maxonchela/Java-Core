@@ -31,6 +31,7 @@ public class Person implements Comparable <Person> {
         System.out.println("Выводим Людей");
         for (int i = 0; i < persons.length; i++) {
             System.out.println(persons[i].name + " " + persons[i].surname + " " +persons[i].age);
+
         }
     }
 }
