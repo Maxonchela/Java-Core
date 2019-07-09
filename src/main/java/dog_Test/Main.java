@@ -11,7 +11,7 @@ public class Main {
        }
        catch (Exception e){
            System.out.println(e.getMessage());
-           System.out.println("Проверяем экиперовку. Ошейник надет? " + dog.testCollar + " Поводок взяли? " + dog.testLeash + " Намордник надели? " + dog.testMuzzle);
+           System.out.println("Проверяем экиперовку собаки. Ошейник надет? " + dog.testCollar + " Поводок взяли? " + dog.testLeash + " Намордник надели? " + dog.testMuzzle);
        }
     }
 }

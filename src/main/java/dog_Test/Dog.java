@@ -32,7 +32,7 @@ public class Dog{
     }
 
     public void walk() throws Exception {
-        System.out.println("Going to walk?");
+        System.out.println("Going for a walk?");
         if(testLeash && testMuzzle && testCollar){
             System.out.println("Everything OK - GO!");
         }
