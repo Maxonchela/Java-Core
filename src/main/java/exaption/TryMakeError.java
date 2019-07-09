@@ -9,7 +9,7 @@ public class TryMakeError {
     }
 
     public static void failedMethod() throws Exception {
-        System.out.println("Now, i'm going to fall");
+        System.out.println("Now, i'm going to fall" + 10 / 0);
         throw new Exception();
     }
 }
