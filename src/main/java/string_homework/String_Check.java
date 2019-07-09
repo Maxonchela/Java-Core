@@ -10,6 +10,7 @@ public class String_Check {
     boolean palindrome() {
         int n = this.word.length();
         for (int i = 0; i < (n/2); ++i) {
+            System.out.println(this.word.charAt(i) + " " + this.word.charAt(n - i - 1));
             if (this.word.charAt(i) != this.word.charAt(n - i - 1)) {
                 return false;
             }
