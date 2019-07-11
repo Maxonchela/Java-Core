@@ -1,34 +1,52 @@
 package dog_Test;
 
 public class Dog{
-    public boolean testCollar;
-    public boolean testMuzzle;
-    public boolean testLeash;
-    public String name;
+    private boolean testCollar;
+    private boolean testMuzzle;
+    private boolean testLeash;
+    private String name;
 
     public Dog(String name){
         this.name = name;
     }
 
-    public void putCollar(){
-        System.out.println("Ошейник надет!");
-        this.testCollar = true;
-    }
-
-//    public void putCollar() {
-//
+//    public void putCollar(){
 //        System.out.println("Ошейник надет!");
-//        this.isCollarPutOn = true;
+//        this.testCollar = true;
+//    }
+//
+//    public void putMuzzle(){
+//        System.out.println("Намордник надет!");
+//        this.testMuzzle = true;
+//    }
+//
+//    public void takeLeash(){
+//        System.out.println("Ошейник взяли!");
+//        this.testLeash = true;
 //    }
 
-    public void putMuzzle(){
-        System.out.println("Намордник надет!");
-        this.testMuzzle = true;
+    public void setTestCollar(boolean testCollar) {
+        this.testCollar = testCollar;
     }
 
-    public void takeLeash(){
-        System.out.println("Ошейник взяли!");
-        this.testLeash = true;
+    public void setTestLeash(boolean testLeash) {
+        this.testLeash = testLeash;
+    }
+
+    public void setTestMuzzle(boolean testMuzzle) {
+        this.testMuzzle = testMuzzle;
+    }
+
+    public boolean getCollar(){
+        return testCollar;
+    }
+
+    public boolean getMuzzle(){
+        return testMuzzle;
+    }
+
+    public boolean getLeash(){
+        return testLeash;
     }
 
     public void walk() throws Exception {
